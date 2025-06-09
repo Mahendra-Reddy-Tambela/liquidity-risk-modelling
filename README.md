@@ -6,7 +6,7 @@ This project models liquidity risk and incorporates it into portfolio optimizati
 
 ## 📌 Key Highlights
 
-- 📈 **Live Data**: Fetches historical price & volume data for multiple tickers using `yfinance`.
+- 📈 **Required Data**: Fetches historical price & volume data for multiple tickers using `yfinance`.
 - 🧪 **Liquidity Metrics**: Computes bid-ask spread (simulated), Amihud illiquidity ratio, and turnover ratio.
 - 📉 **VaR Analysis**: Compares classical Value at Risk (VaR) with a novel liquidity-adjusted VaR.
 - ⚖️ **Portfolio Optimization**: Optimizes portfolio weights using `cvxpy` by penalizing assets with high liquidity costs.
